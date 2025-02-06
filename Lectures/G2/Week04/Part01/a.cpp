@@ -21,3 +21,18 @@ They are mainly categorized into three types:
     - do-while loop
 
 */
+
+// if, else if, else
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    if(/*condition*/) {
+        // code that runs if the condition is true
+    }
+
+    return 0;
+}
