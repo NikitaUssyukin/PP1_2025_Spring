@@ -15,9 +15,24 @@ They are mainly categorized into three types:
     - if, else if, else
     - switch-case
 
-Iteration (looping) statements – used to execute a block of code multiple times:
-- for loop
-- while loop
-- do-while loop
+- Iteration (looping) statements – used to execute a block of code multiple times:
+    - for loop
+    - while loop
+    - do-while loop
 
 */
+
+// if, else if, else
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    if(/*condition*/) {
+        // if condition is true, the code here is executed
+    }
+
+    return 0;
+}
