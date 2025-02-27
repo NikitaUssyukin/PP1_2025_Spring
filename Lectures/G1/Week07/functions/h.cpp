@@ -5,10 +5,10 @@ using namespace std;
 
 int main() {
 
-    int a, b;
-    cin >> a >> b;
+    int a;
+    cin >> a;
 
-    cout << pow(a, b) << endl;
+    cout << log2(a) << endl;
 
     return 0;
 }
