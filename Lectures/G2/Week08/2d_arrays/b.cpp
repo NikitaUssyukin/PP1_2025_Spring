@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    int a[3][3]; // 2d array with 3 rows and 3 columns
+    int a[3][3];
     
     for(int j = 0; j < 3; ++j) {
         a[0][j] = j + 1;
