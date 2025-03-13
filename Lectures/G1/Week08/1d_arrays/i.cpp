@@ -1,12 +1,7 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
-
-void doubleAllElements(int a[], int n) {
-    for(int i = 0; i < n; ++i) {
-        a[i] *= 2;
-    }
-}
 
 int main() {
 
@@ -19,11 +14,9 @@ int main() {
         cin >> a[i];
     }
 
-    doubleAllElements(a, n); // array is passed as a reference
-    // that is, it is not copied, therefore 
-    // all the changes that will be made to the array
-    // inside the function
-    // will reflect on the array inside main
+    // sort(a + firstIndex, a + lastIndex + 1)
+    sort(a, a + n); // sorts the whole array
+    // i.e. sorts the index range [0; n) (same as [0; n - 1])
 
     for(int i = 0; i < n; ++i) {
         cout << a[i] << ' ';

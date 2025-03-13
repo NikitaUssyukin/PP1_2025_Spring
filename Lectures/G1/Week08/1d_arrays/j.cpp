@@ -15,8 +15,7 @@ int main() {
     }
 
     // sort(a + firstIndex, a + lastIndex + 1)
-    sort(a, a + n); // sorts the whole array
-    // i.e. sorts the index range [0; n) (same as [0; n - 1])
+    sort(a + 1, a + n - 1); // sorts the range [1; n - 1)
 
     for(int i = 0; i < n; ++i) {
         cout << a[i] << ' ';
