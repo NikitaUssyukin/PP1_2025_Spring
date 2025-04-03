@@ -1,0 +1,11 @@
+10
+200 Juice
+100 Samsa
+150 Pizza
+150 Apple
+100 Baursak
+200 Pineapple
+250 Shrimp
+250 Banana
+300 Ice-cream
+300 Cake
