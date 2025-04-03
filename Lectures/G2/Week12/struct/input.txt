@@ -1,0 +1,11 @@
+10
+1000 Cake
+100 Baursak
+250 Pizza
+100 Samsa
+250 Bread
+1000 Ice-cream
+500 Ayran
+350 Kurt
+350 Burger
+500 Cheese

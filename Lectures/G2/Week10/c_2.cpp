@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    char s[] = "hello";
+    string s = "hello";
 
     int length = s.length();
     // s.length() and s.size
