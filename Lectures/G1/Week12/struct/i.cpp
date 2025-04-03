@@ -6,14 +6,13 @@ using namespace std;
 struct Product {
     int price;   // data members 
     string name; // of the Product struct
-};
 
-// comparator for the product
-// see comparator folder for intro to this topic
-bool product_cmp(Product p1, Product p2) {
-    if(p1.price != p2.price) return p1.price < p2.price;
-    else return p1.name < p2.name;
-}
+    // overloaded operator < for the product
+    bool operator < (Product another) {
+        if(price != another.price) return price < another.price;
+        else return name < another.name;
+    }
+};
 
 int main() {
 
@@ -25,7 +24,7 @@ int main() {
         cin >> products[i].price >> products[i].name;
     }
 
-    sort(products, products + n, product_cmp);
+    sort(products, products + n);
 
     for(int i = 0; i < n; ++i) {
         cout << products[i].price << ' ' << products[i].name << endl;
