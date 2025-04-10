@@ -1,0 +1,12 @@
+STL - Standard Template Library
+
+Algorithms, Functions, Containers, Iterators
+
+<algorithm> is a part of STL
+
+Vector - one of the containers in STL
+Vector:
+- is a dynamic array, meaning it can change its size after declaration
+- has member functions
+- can be empty (contain 0 elements)
+- has a constructor
