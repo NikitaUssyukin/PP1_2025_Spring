@@ -1,0 +1,11 @@
+10
+set s0m3_c001_k3y s0m3_c001_v41u3
+set some_key some_other_value
+get some_key
+get no_key
+set no_key no_value
+get no_ke
+get s0m3_c001_k3y
+set s0m3_c001_k3y some_value
+get s0m3_c001_k3y
+get xx_key
